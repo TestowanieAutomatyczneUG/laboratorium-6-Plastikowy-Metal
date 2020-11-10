@@ -18,7 +18,24 @@ class Planety():
       0.81
       >>> page.newWiek(2134835688,"Neptun")
       0.41
-
+      >>> page.newWiek("123213", "Uran")
+      Traceback (most recent call last):
+         File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\doctest.py", line 1337, in __run
+             compileflags, 1), test.globs)
+         File "<doctest __main__.Planety.newWiek[8]>", line 1, in <module>
+             page.newWiek("123213", "Uran")
+         File "zad3.py", line 42, in newWiek
+             raise Exception("Error in program")
+      Exception: Error in program
+      >>> page.newWiek(None,None)
+      Traceback (most recent call last):
+         File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.2544.0_x64__qbz5n2kfra8p0\lib\doctest.py", line 1337, in __run
+             compileflags, 1), test.globs)
+         File "<doctest __main__.Planety.newWiek[8]>", line 1, in <module>
+             page.newWiek("123213", "Uran")
+         File "zad3.py", line 42, in newWiek
+             raise Exception("Error in program")
+      Exception: Error in program
       """
       earth = 31557600
       dict = {
