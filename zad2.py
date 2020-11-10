@@ -1,3 +1,5 @@
+#zad2.py 100% lines covered
+
 import unittest
 
 class validate:
